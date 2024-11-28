@@ -15,7 +15,7 @@ const Home = () => {
   };
 
   // Check if the current route is neither login nor signup
-  const isAuthPage = location.pathname === '/login' || location.pathname === '/signup';
+  const isAuthPage = location.pathname === '/login' || location.pathname === '/signup' || location.pathname === '/';
 
   return (
     <div>
