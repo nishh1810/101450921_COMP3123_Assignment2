@@ -1,0 +1,99 @@
+/* src/css/EmployeeList.css */
+.employee-list {
+    padding: 20px;
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    /*justify-content: space-between; /* Adjusted for space between add button, title, and search */
+    align-items: center;
+    margin-left: 140px;
+}
+
+h1 {
+    margin-left: 330px;
+}
+
+button {
+    cursor: pointer;
+    padding: 8px 16px;
+    margin: 5px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+}
+
+.add-employee-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.add-employee-btn:hover {
+    background-color: #45a049;
+}
+
+.search-input {
+    padding: 8px 12px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 2px solid #ddd;
+    width: 300px;
+    margin-left: 145px;
+}
+
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+.update-btn {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.update-btn:hover {
+    background-color: #45a049;
+}
+
+.view-btn {
+    background-color: #2196F3;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.view-btn:hover {
+    background-color: #0b7dda;
+}
+
+.delete-btn {
+    background-color: red;
+    color: white;
+}
+
+.delete-btn:hover {
+    background-color: #e60000;
+}

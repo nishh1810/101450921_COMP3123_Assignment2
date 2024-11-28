@@ -1,0 +1,28 @@
+.view-employee-container {
+    padding: 20px;
+  }
+  
+  .employee-details-box {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .employee-details-box p {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  
+  .back-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .back-btn:hover {
+    background-color: #45a049;
+  }
+  
